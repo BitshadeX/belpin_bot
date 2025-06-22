@@ -1,0 +1,29 @@
+# Abaikan file konfigurasi rahasia
+belpin_bot.env
+.env
+.env/
+
+# Abaikan cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Abaikan environment lokal
+venv/
+ENV/
+env/
+
+# Abaikan file log, backup, dan database
+*.log
+*.sqlite
+*.db
+*.bak
+*.tmp
+
+# Abaikan file sistem/IDE
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
