@@ -18,4 +18,4 @@ if not OPENROUTER_API_KEY:
 if not MODEL_NAME:
     raise ValueError("❌ OPENROUTER_API_KEY tidak ditemukan di belpin_bot.env")
 # Default ke deepseek kalau tidak diisi
-  MODEL_NAME = "deepseek/deepseek-chat:free"
+    MODEL_NAME = "deepseek/deepseek-chat:free"
